@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Multipage Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href=".\css\style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <style>
+    body {
+      background-image: url(./images/bg-texture.png);
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html">
+        <h1>Education Hub</h1>
+      </a>
+      <ul class="nav_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+      <button id="close-menu-btn">
+        <i class="fa-sharp fa-solid fa-xmark"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header>
+    <div class="container header__container">
+      <div class="header-left">
+
+        <h1>Grow your skills to advance your career path</h1>
+
+        <!-- <p>
+          With the help of India's Best Learning Platform.
+        </p> -->
+        <p class="next_line">
+          Over 79000+ learners trust us for their preparation
+        </p>
+        <a href="courses.html" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="header-right">
+        <img src="./images/header.svg" />
+      </div>
+    </div>
+  </header>
+
+  <!-- header -->
+  <section class="categories">
+    <div class="container categories__container">
+      <div class="categories__left">
+        <h1>Categories</h1>
+        <h4>
+          Crack your goal with India’s top educators in the following domains
+
+        </h4>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="categories__right">
+        <article class="category">
+          <span class="category__icon"><i class="fa-brands fa-bitcoin"></i></span>
+          <h5>Blockchain</h5>
+          <p>Blockchain is a digital ledger that keeps a record of all transactions taking place in a peer-to-peer
+            network.</p>
+        </article>
+        <article class="category">
+          <span class="category__icon"><i class="fa-solid fa-pen-ruler"></i></span>
+          <h5>Graphic Design</h5>
+          <p>Graphic design is a craft where professionals create visual content to communicate messages.</p>
+        </article>
+        <article class="category">
+          <span class="category__icon"><i class="fa-solid fa-coins"></i></span>
+          <h5>Finance</h5>
+          <p>Finance is the management of large amounts of money, especially by governments or large companies.</p>
+        </article>
+        <article class="category">
+          <span class="category__icon"><i class="fa-solid fa-chart-simple"></i></span>
+          <h5>Marketing</h5>
+          <p>Marketing is the activity or business of promoting and selling products or services, including market
+            research and advertising.</p>
+        </article>
+        <article class="category">
+          <span class="category__icon"><i class="fa-solid fa-music"></i></span>
+          <h5>Music</h5>
+          <p>Music is vocal or instrumental sounds combined in such a way as to produce beauty of form, harmony and
+            expression of emotion.</p>
+        </article>
+        <article class="category">
+          <span class="category__icon"><i class="fa-brands fa-shopify"></i></span>
+          <h5>Business</h5>
+          <p>Business is the practice of making one's living or making money by producing or buying and selling
+            products.</p>
+        </article>
+
+      </div>
+  </section>
+
+
+
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="container courses__container">
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/course1.jpg">
+        </div>
+        <h4>Responsive Social Media Website UI Design</h4>
+        <p>Social Media Website. Inspirational designs, illustrations, and graphic elements from the world's best
+          designers. Want more inspiration?
+        </p>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+      </article>
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/course2.jpg">
+        </div>
+        <h4>Responsive SmartHome Website Design</h4>
+        <p>Design for an imaginary smart home brand. The design should evoke emotions that reflect the essence of the
+          brand and provide comfort.</p>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+      </article>
+      <article class="course">
+        <div class="course_image">
+          <img src="./images/course3.jpg">
+        </div>
+        <h4>Responsive Admin Dashboard UI Design</h4>
+        <p>Create with Creative Cloud · Creative Cloud All Apps · Photoshop - Image editing & design · Illustrator -
+          Logos, icons & illustration · Premiere Pro - Video editing.</p>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ's -->
+
+  <section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4>How do I know Right Courses for me?</h4>
+          <p>First sit with focus and learn about the courses that are available. Then think and think about what skill
+            you wanna acquire. Plus you can also call our Counsellor to have a one to one conselling session to get
+            suggestion on what courses you can take? </p>
+        </div>
+
+      </article>
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4>What is a free trial class and how do I register for a trial class?</h4>
+          <p>This is a great way to understand the BYJU'S way of teaching and understand how instant doubt solving
+            works. Our counsellor will help book a trial class for you at your convenience.</p>
+        </div>
+
+      </article>
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4>Are the trial classes free?</h4>
+          <p>Yes, the trial classes are free. More details about the trial classes will be provided by our counsellor
+          </p>
+        </div>
+
+      </article>
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4> Is Classes mapped to the curriculum of course?</h4>
+          <p>Yes, We have multiple batches available for students to select from to suit their study plan as per their
+            requirements.</p>
+        </div>
+
+      </article>
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4> Do you give lesson notes and homework?</h4>
+          <p>Yes, homework will be provided after every class. Additionally, you can also access engaging video lessons
+            and practice tests on our app</p>
+        </div>
+
+      </article>
+      <article class="faq">
+        <i id="faq_icon" class="fa-solid fa-plus"></i>
+        <div class="faq__question">
+          <h4>Can I choose the teacher from which I want to learn from?</h4>
+          <p>Each online class will also have a tutor, who will help them understand concepts and clear doubts
+            immediately.</p>
+        </div>
+
+
+
+      </article>
+    </div>
+
+  </section>
+
+
+  <!-- student Testimonials -->
+  <section class="container student_testimonials mySwiper">
+    <h2>Student's Testimonials</h2>
+    <div class="swiper-wrapper">
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar1.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Jenny</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>This is the best website i have came across and it has helped me to expand my learning alot.</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar2.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Pete</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Courses are precised and to the point. The explanations are very easy to understand.</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar3.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Ted</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Best course as per curriculum and teachings.</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar4.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Rame</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Great Course</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar5.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Sonam </h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Best quality courses</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar6.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Tam</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Best courses to start as a Beginner</p>
+        </div>
+
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="images/avatar7.jpg">
+        </div>
+        <div class="testimonial_info">
+          <h5>Tivin</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial_body">
+          <p>Had a great time learning from here!</p>
+        </div>
+
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+
+  <!-- footer -->
+
+
+  <footer class="footer">
+    <div class="container container__footer">
+      <article class="footer_4">
+        <div class="footer_heading"><a href="#">
+          <h4>Education Hub</h4>
+          </a>
+
+        </div>
+        <div class="footer_data">Grow your skills to advance your career path</div>
+      </article>
+      <article class="footer_4">
+        <div class="footer_heading">
+          <h4>Permalinks</h4>
+        </div>
+        <div class="footer_data">
+          <ul class="footer_Nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+
+        </div>
+      </article>
+      <article class="footer_4">
+        <div class="footer_heading">
+          <h4>Primary</h4>
+        </div>
+        <div class="footer_data">
+          <ul class="footer_Nav">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+
+        </div>
+      </article>
+      <article class="footer_4">
+        <div class="footer_heading"><a href="#">
+            <h4>Contact Us</h4>
+          </a>
+
+        </div>
+        <div class="footer_data">
+          <ul>
+            <li>+91 7508265901</li>
+            <li>pulkitsodhi13@gmail.com</li>
+          </ul>
+
+        </div>
+        <div class="logo">
+          <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+          
+        </div>
+      </article>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; Pulkit Sodhi</p>
+    </div>
+    </section>
+
+
+
+
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        //when window width>=600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2
+          }
+        }
+      });
+    </script>
+
+
+</body>
+
+</html>
